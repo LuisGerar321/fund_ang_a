@@ -11,8 +11,8 @@ int main(){
     scanf("%d", &num1); //Inputs Keyboard
     printf("Enter number2,\n\tnum2: "); //Output Screen
     scanf("%d", &num2);
-    //*Procesos*///
+    //*Procesos*///   
     int sum = num1 + num2;
     printf("suma = %d\n", sum); 
-    return 0;
+    return 0;    
 }
