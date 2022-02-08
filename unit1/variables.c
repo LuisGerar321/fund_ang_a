@@ -8,6 +8,7 @@ int edad = 24;
 float estatura = 1.70;
 char* name = "Luis Gerardo";
 char sexo = 'M';
+int temp;
 
 
 int main(){
