@@ -1,9 +1,11 @@
-int isGreaterThan10(int number) {
-    int resultado = 0;
-    if (number > 10){
-        resultado = 1;
-    } else {
-        resultado = 0;
-    }
-    return resultado;
+#include <time.h>
+
+
+void sleep(size_t m_s);
+
+void sleep(size_t m_s){
+    m_s = m_s/1000;
+    clock_t initial_time = time(NULL); //Tiempo inicial//
+    clock_t desired_time = initial_time + m_s ;
+    for(clock_t current_time = initial_time; current_time < desired_time; current_time = time(NULL) ){};
 }
